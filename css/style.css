@@ -1,0 +1,27 @@
+/*Index Page CSS*/
+/*Header CSS*/
+.navbar-inverse .navbar-nav>li>a{
+    color: #ECF0F1;
+}
+.header-active{
+    background-color: #C0392B;
+}
+.header-image{
+    max-width: 40px;
+    max-height: 40px;
+    margin-top: 6px;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #C0392B;
+}
+/*Login Page CSS*/
+.login-box-position{
+    width: 350px;
+    margin: 8% auto;
+}
+/*Product Catalog page CSS*/
+.slider-description-text{
+    font-size: 17.5px;
+    color: #777;
+    padding: 10px;
+}

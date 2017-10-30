@@ -1,0 +1,23 @@
+<div class="container bg-success login-box-position">
+    <div>
+        <h1 class="text-primary">Chai Store <small>Admin Login</small></h1>
+    </div>
+    <div>
+        <p class="text-center">Enter Login Credentials</p>
+        <form>
+            <div class="form-group has-feedback">
+                <input type="text" name="email" class="form-control" placeholder="Email" ng-model="loginModel.userName">
+                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+            </div>
+            <div class="form-group has-feedback">
+                <input type="password" name="password" class="form-control" placeholder="Password" >
+                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="btn btn-primary btn-block btn-flat" ng-click="login()">Sign In</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

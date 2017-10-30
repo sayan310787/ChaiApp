@@ -1,0 +1,53 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-toggle-mobile-device" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="">Admin Pannel</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-toggle-mobile-device">
+            <ul class="nav navbar-nav">
+                <li ui-sref="home.productCatalog" ui-sref-active="header-active"><a href="">Product Catalog</a></li>
+                <li><a href="" ui-sref="home.customerManagement" ui-sref-active="header-active">Customer Management</a></li>
+                <li><a href="" ui-sref="home.posManagement" ui-sref-active="header-active">POS Management</a></li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Reports <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" ui-sref="home.reportByPos" ui-sref-active="header-active">Sales​ ​report​ ​by​ ​POS</a></li>
+                        <li><a href="" ui-sref="home.reportByItem" ui-sref-active="header-active">Sales​ ​report​ ​by​ ​item</a></li>
+                        <li><a href="" ui-sref="home.reportSummary" ui-sref-active="header-active">Sales​ ​summary​ ​report</a></li>
+                        <li><a href="" ui-sref="home.reportByPayment" ui-sref-active="header-active">Payment​ ​reports </a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Add/Edit <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">Terms​ ​and​ ​Conditions</a></li>
+                        <li><a href="">Contact​ ​Details </a></li>
+                        <li><a href="">FAQs</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right row">
+                <img src="images/person.png" alt="Sayan" class="img-circle header-image">
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Hi! Sayan <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Change Password</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="" ng-click="logout()">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
